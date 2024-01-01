@@ -68,8 +68,8 @@ const Main = () => {
                 </th>
               </tr>
             </thead>
-            <tbody>
-              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <tbody className="text-xs font-semibold">
+              <tr className="bg-white dark:bg-gray-800 dark:border-gray-700">
                 <td className="px-6 py-4">312568</td>
                 <td className="px-6 py-4">1-6968387</td>
                 <td className="px-6 py-4">29 June 2023</td>
@@ -88,6 +88,83 @@ const Main = () => {
             Advance Tariff
           </h2>
         </div>
+        <table className="min-w-full border-t-2">
+          <thead className="bg-white border-b">
+            <tr>
+              <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                #
+              </th>
+              <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                First
+              </th>
+              <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Last
+              </th>
+              <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Handle
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="bg-blue-50 border-b">
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Mark
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Otto
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @mdo
+              </td>
+            </tr>
+            <tr className="bg-white border-b">
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Jacob
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Dillan
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @fat
+              </td>
+            </tr>
+            <tr className="bg-blue-50 border-b">
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3</td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Mark
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Twen
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @twitter
+              </td>
+            </tr>    
+            <tr className="bg-white border-b">
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">4</td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Bob
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                Dillan
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @fat
+              </td>
+            </tr>
+            <tr className="bg-blue-50 border-b">
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">5</td>
+              <td colspan="2" className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
+                Larry the Bird
+              </td>
+              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                @twitter
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   );

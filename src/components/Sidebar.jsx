@@ -17,7 +17,7 @@ import {
 } from "@heroicons/react/24/solid";
 const Sidebar = () => {
   return (
-    <Card className="h-[calc(100vh-2rem)] w-full max-w-[15rem] p-4 shadow-sm shadow-blue-gray-900/5">
+    <Card className="h-[calc(100-2rem)] w-full max-w-[15rem] p-4 shadow-sm shadow-blue-gray-900/5">
       <List className="pt-10 px-5">
         <ListItem className="gap-5 transition duration-300 ease-in-out hover:bg-gray-200 p-3 rounded">
           <ListItemPrefix>
